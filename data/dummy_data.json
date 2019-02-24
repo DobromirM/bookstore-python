@@ -1,0 +1,174 @@
+{
+    "Authors": [
+        {
+            "first_name": "John",
+            "last_name": "Steinbeck"
+        },
+        {
+            "first_name": "Robert",
+            "last_name": "Stevenson"
+        },
+        {
+            "first_name": " Stephen",
+            "last_name": "King"
+        },
+        {
+            "first_name": "Scott",
+            "last_name": "Fitzgerald"
+        },
+        {
+            "first_name": "George",
+            "last_name": "Orwell"
+        }
+    ],
+    "Publishers": [
+        {
+            "name": "Penguin Books",
+            "country": "United Kingdom"
+        },
+        {
+            "name": "Signet Classics",
+            "country": "United States"
+        },
+        {
+            "name": "Pocket Books",
+            "country": "United States"
+        },
+        {
+            "name": "Scribner",
+            "country": "United States"
+        },
+        {
+            "name": "Houghton Mifflin Harcourt ",
+            "country": "United States"
+        }
+    ],
+    "Genres": [
+        {
+            "name": "Classics"
+        },
+        {
+            "name": "Mystery"
+        },
+        {
+            "name": "Horror"
+        },
+        {
+            "name": "Fiction"
+        },
+        {
+            "name": "Dystopia"
+        }
+    ],
+    "Customers": [
+        {
+            "first_name": "Andrew",
+            "last_name": "Morrison",
+            "phone_number": "078 0578 6522",
+            "address": "57 Uxbridge Road",
+            "city": "Slaley",
+            "country": "United Kingdom"
+        },
+        {
+            "first_name": "Hugo",
+            "last_name": "Baldwin",
+            "phone_number": "(02) 6773 3551",
+            "address": "19 Old Tenterfield Road",
+            "city": "Mallanganee",
+            "country": "Australia"
+        },
+        {
+            "first_name": "Olivia",
+            "last_name": "Freeman",
+            "phone_number": "077 5900 0401",
+            "address": "58 Front St",
+            "city": "Henley",
+            "country": "United Kingdom"
+        },
+        {
+            "first_name": "Emma",
+            "last_name": "Crafts",
+            "phone_number": "806-478-4369",
+            "address": "3587 Charmaine Lane",
+            "city": "Lubbock",
+            "country": "United States"
+        },
+        {
+            "first_name": "Alicia",
+            "last_name": "Hedditch",
+            "phone_number": "(08) 9055 3122",
+            "address": "39 Loris Way",
+            "city": "Hillside",
+            "country": "Australia"
+        }
+    ],
+    "Books": [
+        {
+            "title": "Of Mice and Men",
+            "author": 1,
+            "publisher": 1,
+            "genre": 1,
+            "year": "1937-11-23",
+            "price": "10.99"
+        },
+        {
+            "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+            "author": 2,
+            "publisher": 2,
+            "genre": 2,
+            "year": "1886-01-05",
+            "price": "15.00"
+        },
+        {
+            "title": "Carrie",
+            "author": 3,
+            "publisher": 3,
+            "genre": 3,
+            "year": "1974-04-05",
+            "price": "21.11"
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": 4,
+            "publisher": 4,
+            "genre": 4,
+            "year": "1925-04-10",
+            "price": "4.99"
+        },
+        {
+            "title": "Animal Farm",
+            "author": 5,
+            "publisher": 5,
+            "genre": 5,
+            "year": "1945-08-17",
+            "price": "11.99"
+        }
+    ],
+    "Orders": [
+        {
+            "customer": 1,
+            "books": [1,4],
+            "purchase_date": "2017-09-13"
+        },
+        {
+            "customer": 4,
+            "books": [1,3,5],
+            "purchase_date": "2018-01-29"
+        },
+        {
+            "customer": 5,
+            "books": [5],
+            "purchase_date": "2018-02-12"
+        },
+        {
+            "customer": 3,
+            "books": [2,4],
+            "purchase_date": "2017-05-11"
+        },
+        {
+            "customer": 2,
+            "books": [1,2,3,4,5],
+            "purchase_date": "2017-06-05"
+        }
+    ]
+}
